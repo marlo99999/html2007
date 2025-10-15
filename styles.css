@@ -1,0 +1,25 @@
+/** 
+
+Styling and Sizing for elements. Do not modify this section
+
+**/
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/** 
+
+Your Playground
+
+**/
+
+body {
+    background-color: #e0f7fa; /* Change background color */
+}
