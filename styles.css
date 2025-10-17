@@ -15,21 +15,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-}
+    }
 
-/*******************    text style defaults   ******************/
-
-ul li {
-    list-style-type: none;
-    padding: 14px 20px;
-}
-
-ul li a {
-    text-decoration: none;
-    color: #333333;
-    font-weight: bold;
-}
 
 /*********************    nav bar structure   *******************/
 
@@ -70,17 +57,12 @@ nav ul {
 .bio-sidebar {
     display: flex;
     flex-direction: column;
-    border:#333333 dotted 2px;
 }
 
 .bio-sidebar * {
     margin: 4px;
 }
 
-.bio-sidebar .bio,
-.bio-sidebar .links{
-    border-bottom: #333333 dotted 2px;
-}
 
 /***********************    bio structure   *********************/
 
@@ -93,7 +75,6 @@ nav ul {
     width: clamp(100px, 70%, 200px);
     height: 250px;
     margin: 10px;
-    border:#333333 dotted 2px;
 }
 
 /*********************    aboutme structure   *******************/
@@ -102,7 +83,6 @@ nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border:#333333 dotted 2px;
 }
 
 /**********************    main structure   *********************/
@@ -116,7 +96,6 @@ nav ul {
 }
 
 .main-section * {
-    background-color: pink;
     width: 80%;
     padding: 10px;
 }
@@ -129,7 +108,6 @@ nav ul {
 .main-section .posts div {
     align-self: center;
     width: 65%;
-    border: #333333 dotted 2px;
     margin: 20px;
 }
 
@@ -176,7 +154,6 @@ nav ul {
 }
 
 .friends div {
-    background-color: black;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -199,7 +176,6 @@ body {
     background-color: #fff; /* Change background color */
 }
 
-
 /************************    navbar   ***************************/
 
 nav {
@@ -216,4 +192,50 @@ nav ul li a {
     text-decoration: none;
     color: #333333;
     font-weight: bold;
+}
+
+/**********************    text styles   ************************/
+
+ul li {
+    list-style-type: none;
+    padding: 14px 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+}
+
+/***********************    sidebar styles   ********************/
+
+.bio-sidebar {
+    border:#333333 dotted 2px;
+}
+
+.bio-sidebar .bio,
+.bio-sidebar .links{
+    border-bottom: #333333 dotted 2px;
+}
+
+/***********************    main styles   ***********************/
+
+.main-section section {
+    border: #333333 dotted 2px; 
+}
+
+.main-section .posts div {
+    border: #333333 dotted 2px;
+}
+
+
+/************************    bio styles   ***********************/
+
+.bio img {
+    border:#333333 dotted 2px;
+}
+
+/**********************    aboutme styles   *********************/
+.about-me .about-me-text *{
+    border:#333333 dotted 2px;
 }
