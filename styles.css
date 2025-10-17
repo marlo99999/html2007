@@ -61,6 +61,10 @@ nav ul {
     grid-template-columns: 1fr 3fr;
 }
 
+.container * {
+    margin: 10px;
+}
+
 /*********************    sidebar structure   *******************/
 
 .bio-sidebar {
@@ -69,6 +73,14 @@ nav ul {
     border:#333333 dotted 2px;
 }
 
+.bio-sidebar * {
+    margin: 4px;
+}
+
+.bio-sidebar .bio,
+.bio-sidebar .links{
+    border-bottom: #333333 dotted 2px;
+}
 
 /***********************    bio structure   *********************/
 
