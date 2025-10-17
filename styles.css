@@ -140,6 +140,9 @@ nav ul {
     justify-content: center;
     align-items: center;
 }
+.music h2 {
+    align-self: flex-start;
+}
 
 /**********************    pet iframe    ************************/
 .pets {
