@@ -133,6 +133,14 @@ nav ul {
     margin: 20px;
 }
 
+/**********************    muisc iframe    **********************/
+.music {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /*****************************************************************
 
