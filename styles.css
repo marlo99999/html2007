@@ -133,12 +133,31 @@ nav ul {
     margin: 20px;
 }
 
-/**********************    muisc iframe    **********************/
+/**********************    music iframe    **********************/
 .music {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+/**********************    pet iframe    ************************/
+.pets {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pets h2 {
+    position: relative;
+    top: -150px
+
+}
+
+.pets iframe {
+    height: 350px;
+    width: 350px;
 }
 
 
