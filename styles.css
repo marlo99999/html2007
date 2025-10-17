@@ -105,6 +105,35 @@ nav ul {
     border:#333333 dotted 2px;
 }
 
+/**********************    main structure   *********************/
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    margin: 10px;
+}
+
+.main-section * {
+    background-color: pink;
+    width: 80%;
+    padding: 10px;
+}
+.main-section .posts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-section .posts div {
+    align-self: center;
+    width: 65%;
+    border: #333333 dotted 2px;
+    margin: 20px;
+}
+
+
 /*****************************************************************
 
 Your Playground (Make customizations and changes below)
