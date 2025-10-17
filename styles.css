@@ -6,6 +6,8 @@ Styling and Sizing for elements. Do not modify this section
 
 * {
     box-sizing: border-box;
+    padding: 3px;
+    margin: 1px;
 }
 
 /***********************    body structure   ********************/
@@ -52,15 +54,38 @@ nav ul {
 }
 
 
-/********************    container structure   *****************/
+/********************    container structure   ******************/
 
 .container {
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
 
-/********************    container structure   *****************/
+/*********************    sidebar structure   *******************/
 
+.bio-sidebar {
+    display: flex;
+    flex-direction: column;
+    border:#333333 dotted 2px;
+}
+
+.bio-sidebar * {
+    background-color: pink;
+}
+
+/***********************    bio structure   *********************/
+
+.bio{
+    display: flex;
+    flex-direction: column;
+}
+
+.bio img {
+    width: clamp(100px, 70%, 200px);
+    height: 250px;
+    margin: 10px;
+    border:#333333 dotted 2px;
+}
 
 /*****************************************************************
 
