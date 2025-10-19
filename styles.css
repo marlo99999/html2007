@@ -171,11 +171,12 @@ nav ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 10px;
+    width: 70px;
 }
 
 .friends img {
-    width: 100%;
-    height: clamop(100px, 70%, 150px);
+    height: clamp(100px, 70%, 150px);
 }
 
 /*****************************************************************
