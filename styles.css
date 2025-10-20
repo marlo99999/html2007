@@ -104,9 +104,10 @@ nav ul {
     align-items: center;
     padding: 25px;
     margin: 10px;
+    max-width: ;
 }
 
-.main-section * {
+.main-section section {
     width: 80%;
     padding: 10px;
 }
@@ -118,7 +119,6 @@ nav ul {
 
 .main-section .posts div {
     align-self: center;
-    width: 65%;
     margin: 20px;
 }
 
@@ -157,27 +157,48 @@ nav ul {
 
 .friends {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    width: 80%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    column-gap: 0px;
 }
-
 .friends h2 {
-    grid-column: span 5;
-    text-align:start;
+    grid-column: 1/ span 4;
+    text-align: start;
 }
 
 .friends div {
     height: auto;
+    width: 80%;
+    padding: 1%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 10px;
-    width: 70px;
+
 }
 
-.friends img {
-    height: clamp(100px, 70%, 150px);
+.friends div * {
+    flex-basis: auto;
+    flex-shrink: 1;
 }
+
+
+.friends div img {
+    max-width: 150px;
+    max-height: 150px;
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+}
+
+.friends div span {
+    max-width: 150px;
+    max-height: 150px;
+    font-size: 75%;
+    overflow-wrap: break-word;
+}
+
 
 /*****************************************************************
 
@@ -268,3 +289,9 @@ ul li a:hover {
 }
 
 /**********************    aboutme styles   *********************/
+
+
+.main-section img,
+.main-section span {
+    background: transparent;
+}
