@@ -68,6 +68,8 @@ nav ul {
 .bio-sidebar {
     display: flex;
     flex-direction: column;
+    padding: 10px;
+    height: fit-content;
 }
 
 .bio-sidebar * {
@@ -272,4 +274,16 @@ ul li a {
 /**********************    aboutme styles   *********************/
 .about-me .about-me-text *{
     border:#333333 dotted 2px;
+}
+
+/*********************    friends     *********************/
+
+.friends img {
+    border: #333333 dotted 2px;
+}
+
+
+.friends div {
+    width: 200px;
+    height: 200px;
 }
